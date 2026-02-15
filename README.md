@@ -16,3 +16,5 @@ TruSource wants to identify customers likely to cancel service so the retention 
 
 ## Limitation
 The model may be sensitive to changes in customer behavior over time (data drift), so periodic retraining is required.
+## Notes
+This repository was created as part of the MSBA predictive analytics final project.
