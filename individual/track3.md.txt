@@ -1,0 +1,15 @@
+Deployment and Real-World Usage Plan
+
+## Instant vs Overnight Predictions
+Overnight predictions are sufficient because retention teams typically act on customer lists daily or weekly rather than in real time.
+
+## Schedule and Storage
+The model would run weekly and save predictions to a database table that feeds a dashboard used by the retention team.
+
+## Software Approach
+A scheduled Python process would load new customer data, run the trained model, and write results to a database. A dashboard would then display high-risk customers.
+
+## Monitoring
+Data quality check: monitor missing values and row counts.
+Input drift check: compare feature averages to training data over time.
+Outcome check: compare predicted risk to actual churn monthly to ensure performance stability.
