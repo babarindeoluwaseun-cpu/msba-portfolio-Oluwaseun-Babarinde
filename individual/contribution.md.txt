@@ -1,0 +1,7 @@
+-I personally contributed most to feature engineering and preprocessing decisions, storytelling and executive recommendations. 
+
+-Furthermore, I advocated for the optimization of the operating threshold instead of relying on the default 0.50 cutoff because churn problems are imbalanced and missing a churner is more costly than contacting a non-churner.
+
+-I learned from the case competition that a high model score does not automatically translate into business value, that threshold choice determines usability.
+
+-If I had more time, I would model expected time-to-churn so the retention team could intervene at the optimal moment rather than reacting after risk becomes high
